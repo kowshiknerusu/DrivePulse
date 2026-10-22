@@ -1,0 +1,1 @@
+{"name":"drivepulse","private":true,"version":"1.0.0","scripts":{"dev":"pnpm --parallel --filter drivepulse-web --filter drivepulse-api dev","build":"pnpm --filter drivepulse-web build && pnpm --filter drivepulse-api build","lint":"pnpm --filter drivepulse-web lint && pnpm --filter drivepulse-api lint"},"devDependencies":{}}

@@ -1,0 +1,2 @@
+import React from 'react';
+export class ErrorBoundary extends React.Component<React.PropsWithChildren, {failed:boolean}>{state={failed:false};static getDerivedStateFromError(){return {failed:true}}render(){if(this.state.failed)return <main className="error-page"><h1>That page hit a bump.</h1><p>Try refreshing or head back to discover cars.</p><a className="button-primary" href="/">Back to DrivePulse</a></main>;return this.props.children}}
